@@ -71,7 +71,7 @@ export default function Contact({ locale }) {
             data-netlify="true" 
             data-netlify-honeypot="botfield" 
             onSubmit={handleSubmit}>
-                <label htmlFor="form-content" className="text-white block mb-2">¿Comentarios o sugerencias?</label>
+                <label className="text-white block mb-2">¿Comentarios o sugerencias?</label>
                 <input type="hidden" name="form-name" aria-hidden="true" value="comments" data-netlify-honeypot="botfield"/>
                 <input
                 style={{ display: "none" }}
@@ -82,8 +82,7 @@ export default function Contact({ locale }) {
                 />
                 <div className="flex shadow rounded bg-white border p-2">
                     <textarea 
-                        id="form-content"
-                        name="form-content"
+                        name="message"
                         className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
                         required
                         value={message}
