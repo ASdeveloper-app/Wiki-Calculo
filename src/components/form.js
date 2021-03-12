@@ -43,12 +43,15 @@ export default function Contact({ locale }) {
         setShowFormLoading(true)
         setFormSubmitted(true)
 
+        console.log(message, "forms")
+
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
                 "form-name": "comments",
                 message, 
+                test: "prueba de fuego",
                 botfield: botField,
             })
         })
@@ -59,7 +62,8 @@ export default function Contact({ locale }) {
             handleFormError(error)
         })
     }
-
+    
+    console.log(message, "message")
     return (
         <>
             <form 
@@ -70,6 +74,7 @@ export default function Contact({ locale }) {
             data-netlify="true" 
             data-netlify-honeypot="botfield" 
             onSubmit={handleSubmit}>
+
                 <label htmlFor="form-content" className="text-white block mb-2">¿Comentarios o sugerencias?</label>
                 <div className="flex shadow rounded bg-white border p-2">
                     <textarea 
