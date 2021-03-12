@@ -1,15 +1,12 @@
 import React from 'react'
 
-export default function loader() {
+export default function loader({locale, props}) {
     return (
         <>
             {
-                showFormLoading ? (<Spinner/>) : (
+                props.showFormLoading ? (<h1>Spinner</h1>) : (
                     <>
-                        {FORM_SUBMIT_STATUS.cta[locale]}
-                        <StyledIcon aria-hidden="true">
-                            <use xlinkHref="#correct"/>
-                        </StyledIcon>
+                        <h2>no spinner</h2>
                     </>
                 )
             }

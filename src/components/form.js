@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Loader from './loader'
 
-export default function contact({ locale }) {
+export default function Contact({ locale }) {
 
     const [message, setMessage] = useState("");
     const [botField, setBotField] = useState("");
@@ -10,6 +10,8 @@ export default function contact({ locale }) {
     const [showFormSuccess, setShowFormSuccess] = useState(false);
     const [showFormError, setShowFormError] = useState(false);
     const [formErrorRes, setFormErrorRes] = useState({});
+
+    const thanksURL = <h1>Funciona</h1>
 
     function encode(data) {
         return Object.keys(data)
@@ -97,7 +99,7 @@ export default function contact({ locale }) {
                     showFormSuccess={ showFormSuccess }
                     showFormError={ showFormError }
                     formErrorRes={ formErrorRes }
-                    locale={locale}
+                    locale={locale}/>
                 )
             }
         </>
