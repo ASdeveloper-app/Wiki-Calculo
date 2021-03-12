@@ -43,12 +43,11 @@ export default function Contact({ locale }) {
         setShowFormLoading(true)
         setFormSubmitted(true)
 
-        const form = e.target
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
-                "form-name": form.getAttribute("name"),
+                "form-name": "comments",
                 message, 
                 botfield: botField,
             })
@@ -71,7 +70,18 @@ export default function Contact({ locale }) {
             data-netlify="true" 
             data-netlify-honeypot="botfield" 
             onSubmit={handleSubmit}>
-                <label className="text-white block mb-2">¿Comentarios o sugerencias?</label>
+                <label htmlFor="form-content" className="text-white block mb-2">¿Comentarios o sugerencias?</label>
+                <div className="flex shadow rounded bg-white border p-2">
+                    <textarea 
+                        id="form-content"
+                        name="form-content"
+                        className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
+                        required
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                    ></textarea>
+                    <button className="btn ml-4" type="submit">Enviar</button>
+                </div>
                 <input type="hidden" name="form-name" aria-hidden="true" value="comments" data-netlify-honeypot="botfield"/>
                 <input
                 style={{ display: "none" }}
@@ -80,16 +90,6 @@ export default function Contact({ locale }) {
                 value={botField}
                 onChange={(e) => setBotField(e.target.value)}
                 />
-                <div className="flex shadow rounded bg-white border p-2">
-                    <textarea 
-                        name="message"
-                        className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
-                        required
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                    ></textarea>
-                    <button className="btn ml-4">Enviar</button>
-                </div>
             </form>
             {
                 formSubmitted && (
