@@ -1,0 +1,23 @@
+{
+    "slug": "online",
+    "description": "En la red",
+    "title": "Online",
+    "items": [
+        {
+            "name": "ironhack",
+            "degree": "ironhack",
+            "score": "1000000"
+        },
+        {
+            "name": "Gapsi",
+            "degree": "Gapsi",
+            "score": "1000"
+        },
+        {
+            "name": "CF",
+            "degree": "CF",
+            "score": "1000"
+        }
+
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "slug": "others",
+    "description": "Vamos a ver que pedoooo",
+    "title": "Otros",
+    "items": [
+        {
+            "name": "ironhack",
+            "degree": "ironhack",
+            "score": "1000000"
+        },
+        {
+            "name": "Gapsi",
+            "degree": "Gapsi",
+            "score": "1000"
+        }
+    ]
+}

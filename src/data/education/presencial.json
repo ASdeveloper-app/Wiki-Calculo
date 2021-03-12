@@ -1,0 +1,13 @@
+{
+    "slug": "presencial",
+    "description": "Talleres, diplomas y confe",
+    "title": "Logros Presenciales",
+    "items": [
+        {
+            "name": "UVM",
+            "degree": "Ing. en TI",
+            "score": "100"
+
+        }
+    ]
+}
