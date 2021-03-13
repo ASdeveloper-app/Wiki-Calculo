@@ -17,9 +17,9 @@ export default function Topics() {
 
     return (
         <section>
-            <div className="mt-24">
+            <div className="mb-14 mt-8">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-bold text-center">Contenido</h2>
+                    <h2 className="text-3xl font-bold text-center mb-8">Contenido</h2>
                     <div className="flex justify-around">
                         {topics.map(courses => (
                             <div className="shadow-xl p-4 bg-white mr-4 rounded">

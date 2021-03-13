@@ -65,47 +65,49 @@ export default function Contact({ locale }) {
     
     console.log(message, "message")
     return (
-        <>
-            <form 
-            className="mt-16 text-center" 
-            name="comments" 
-            method="post" 
-            action={thanksURL} 
-            data-netlify="true" 
-            data-netlify-honeypot="botfield" 
-            onSubmit={handleSubmit}>
+        <header className="bg-gray-600">
+            <div className="container mx-auto pt-6 pb-12 max-w-4xl">
+                <form 
+                className="text-center" 
+                name="comments" 
+                method="post" 
+                action={thanksURL} 
+                data-netlify="true" 
+                data-netlify-honeypot="botfield" 
+                onSubmit={handleSubmit}>
 
-                <label htmlFor="form-content" className="text-white block mb-2">¿Comentarios o sugerencias?</label>
-                <div className="flex shadow rounded bg-white border p-2">
-                    <textarea 
-                        id="form-content"
-                        name="form-content"
-                        className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
-                        required
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                    ></textarea>
-                    <button className="btn ml-4" type="submit">Enviar</button>
-                </div>
-                <input type="hidden" name="form-name" aria-hidden="true" value="comments" data-netlify-honeypot="botfield"/>
-                <input
-                style={{ display: "none" }}
-                aria-hidden="true"
-                name="botfield"
-                value={botField}
-                onChange={(e) => setBotField(e.target.value)}
-                />
-            </form>
-            {
-                formSubmitted && (
-                    <Loader
-                    showFormLoading={ showFormLoading }
-                    showFormSuccess={ showFormSuccess }
-                    showFormError={ showFormError }
-                    formErrorRes={ formErrorRes }
-                    locale={locale}/>
-                )
-            }
-        </>
+                    <label htmlFor="form-content" className="text-white block mb-2">¿Comentarios o sugerencias?</label>
+                    <div className="flex shadow rounded bg-white border p-2">
+                        <textarea 
+                            id="form-content"
+                            name="form-content"
+                            className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
+                            required
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                        ></textarea>
+                        <button className="btn ml-4" type="submit">Enviar</button>
+                    </div>
+                    <input type="hidden" name="form-name" aria-hidden="true" value="comments" data-netlify-honeypot="botfield"/>
+                    <input
+                    style={{ display: "none" }}
+                    aria-hidden="true"
+                    name="botfield"
+                    value={botField}
+                    onChange={(e) => setBotField(e.target.value)}
+                    />
+                </form>
+                {
+                    formSubmitted && (
+                        <Loader
+                        showFormLoading={ showFormLoading }
+                        showFormSuccess={ showFormSuccess }
+                        showFormError={ showFormError }
+                        formErrorRes={ formErrorRes }
+                        locale={locale}/>
+                    )
+                }
+            </div>
+        </header>
     )
 }

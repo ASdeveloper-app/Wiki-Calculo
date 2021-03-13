@@ -13,13 +13,9 @@ export default function Home() {
                     </div>
                     <img src={logo} alt='Hombre enseñando' style={{height: "10vh"}}></img>
                 </div>
-                
-                <div>
-                    <Form/>
-                </div>
             </div>
         </header>
-      )
-  }
+    )
+}
 
 
