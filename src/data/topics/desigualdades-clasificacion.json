@@ -1,10 +1,9 @@
 {
     "slug": "desigualdades-clasificación",
-    "description": "Talleres y conferencias",
     "title": "Clasificación de las desigualdades",
-    "items": [
+    "contents": [
         {
-            "name": "UVM",
+            "name": "Clasificación de las desigualdades",
             "degree": "Ing. en TI",
             "score": "100"
 

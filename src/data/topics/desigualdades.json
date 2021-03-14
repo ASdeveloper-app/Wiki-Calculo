@@ -1,10 +1,9 @@
 {
     "slug": "desigualdades",
-    "description": "Talleres y conferencias",
     "title": "Definición de desigualdad",
-    "items": [
+    "contents": [
         {
-            "name": "UVM",
+            "name": "Definición de desigualdad",
             "degree": "Ing. en TI",
             "score": "100"
 

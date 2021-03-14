@@ -1,11 +1,10 @@
 {
-    "slug": "funciones-basicas",
-    "description": "En la red",
-    "title": "Cuáles son las funciones elementales básicas y las propiedades particulares de cada una",
-    "items": [
+    "slug": "4",
+    "title": "Propiedades de las desigualdades",
+    "contents": [
         {
-            "name": "ironhack",
-            "degree": "ironhack",
+            "name": "Propiedades de las desigualdades",
+            "degree": "<h4 class='text-tealwk'>Funcionara?</h4",
             "score": "1000000"
         },
         {

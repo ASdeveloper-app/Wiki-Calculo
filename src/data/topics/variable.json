@@ -1,10 +1,9 @@
 {
     "slug": "variable",
-    "description": "Talleres y conferencias",
     "title": "Definición de variable",
-    "items": [
+    "contents": [
         {
-            "name": "UVM",
+            "name": "Definición de variable",
             "degree": "Ing. en TI",
             "score": "100"
 

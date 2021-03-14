@@ -1,10 +1,9 @@
 {
-    "slug": "numeros",
-    "description": "En la red",
-    "title": "Clasificación de los números",
-    "items": [
+    "slug": "funciones-basicas",
+    "title": "¿Cuáles son las funciones elementales...",
+    "contents": [
         {
-            "name": "ironhack",
+            "name": "¿Cuáles son las funciones elementales básicas y las propiedades particulares de cada una?",
             "degree": "ironhack",
             "score": "1000000"
         },

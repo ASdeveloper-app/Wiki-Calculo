@@ -4,7 +4,7 @@ exports.createPages = async ({graphql, actions}) => {
 
     const result = await graphql (`
         {
-            allEducationJson {
+            allTopicsJson {
                 edges {
                     node {
                     slug
@@ -14,11 +14,11 @@ exports.createPages = async ({graphql, actions}) => {
         }
     `) 
 
-    result.data.allEducationJson.edges.forEach(element => {
+    result.data.allTopicsJson.edges.forEach(element => {
         const { node } = element
         actions.createPage({
             path: node.slug,
-            component: path.resolve('./src/templates/education.js'),
+            component: path.resolve('./src/templates/publication.js'),
             context: {
                 slug: node.slug
             }

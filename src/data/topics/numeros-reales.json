@@ -1,10 +1,9 @@
 {
     "slug": "numeros-reales",
-    "description": "Propiedades de los números reales",
     "title": "Propiedades de los números reales",
-    "items": [
+    "contents": [
         {
-            "name": "UVM",
+            "name": "Propiedades de los números reales",
             "degree": "Ing. en TI",
             "score": "100"
 

@@ -1,39 +1,42 @@
 import React from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
+import {useStaticQuery, graphql, Link} from 'gatsby'
 
-export default function Topics() {
+export default function Topics(props) {
     const data = useStaticQuery(graphql`{
-        wikiJson(data: {}) {
-            data {
-                courses {
-                    name
-                    contents
+        allTopicsJson{
+            edges {
+                node {
+                    slug
+                    title
                 }
             }
         }
     }`)
-
-    const topics = data &&  data.wikiJson ? data.wikiJson.data.courses : ''
-
     return (
-        <section>
-            <div className="mb-14 mt-8">
-                <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-bold text-center mb-8">Contenido</h2>
-                    <div className="flex justify-around">
-                        {topics.map(courses => (
-                            <div className="shadow-xl p-4 bg-white mr-4 rounded">
-                                <h4 className="font-bold">{courses.name}</h4>
-                                <div className="text-center">
-                                    <span className="inline-block p-2 mt-2 bg-gray-700 text-white rounded">
-                                        Contenido: blablablablabla
-                                    </span>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+        <div className="mt-8 px-6">
+            <h2 className="text-3xl font-bold text-center">Publicaciones</h2>
+            <div className="max-w-6xl mx-auto overflow-x-scroll pb-2">
+                    <nav className="flex mt-6">
+                    {
+                        data.allTopicsJson.edges.map((element,  index) => {
+                            const { node } = element
+                            return (
+                                <>
+                                    <div className="shadow bg-white mr-4 rounded flex-shrink-0 img-size" key={index}>
+                                        <header className="h-40 bg-cover bg-center rounded-t" style={{backgroundImage: `url('https://www.imagen.com.mx/assets/img/imagen_share.png')`}}></header>
+                                        <div className="p-8">
+                                            <h4 className="font-bold leading-loose h-20 lg:h-12 xl-12 overflow-y-hidden">{node.title}</h4>
+                                            <Link to={`/${node.slug}`} className="btn inline-block mt-4">
+                                                Ver publicación
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </>
+                            )
+                        })
+                    }
+                    </nav>
             </div>
-        </section>
+        </div>
     )
 }

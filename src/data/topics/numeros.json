@@ -1,10 +1,9 @@
 {
-    "slug": "4",
-    "description": "En la red",
-    "title": "Propiedades de las desigualdades",
-    "items": [
+    "slug": "numeros",
+    "title": "Clasificación de los números",
+    "contents": [
         {
-            "name": "ironhack",
+            "name": "Clasificación de los números",
             "degree": "ironhack",
             "score": "1000000"
         },
