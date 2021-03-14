@@ -5,22 +5,6 @@
     "date": "12 marzo 2021",
     "name": "Clasificación de los números",
     "style":"bg-uvm",
-    "contents": [
-        {
-            "name": "Clasificación de los números",
-            "degree": "ironhack",
-            "score": "1000000"
-        },
-        {
-            "name": "Gapsi",
-            "degree": "Gapsi",
-            "score": "1000"
-        },
-        {
-            "name": "CF",
-            "degree": "CF",
-            "score": "1000"
-        }
-
-    ]
+    "src": "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "description": ""
 }

@@ -8,49 +8,49 @@ const data = [
         name: "Arturo Gabriel Araujo Alvarez",
         degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
         photo: 0,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y trabajo de tiempo completo como desarrollador front-end para Liverpool."
     },
     {
         name: "Jésus Baldomero Álvarez Cntreras",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Economia y Finanzas",
         photo: 1,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Laboro en un despacho juridico dando asesoria contable, legal y de comercio exterior y aduanas y soy estudiante."
     },
     {
         name: "Elia Patricia De Anda Centeno",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Ingenieria y de Sistemas",
         photo: 2,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Especialista en recepción y envío de materiales electronicos"
     },
     {
         name: "César Osvaldo García Espinosa",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Ingenieria Industrial",
         photo: 3,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Ocupación: Estudiante"
     },
     {
         name: "Rocío Belén Martínez Hernández",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Economia y Finanzas",
         photo: 4,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Trabajo en Lala en planeación de ventas y soy estudiante."
     },
     {
         name: "Ángel Mercurio Rivera Rivera",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura ...",
         photo: 5,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "..."
     },
     {
         name: "Aurelio Rodriguez Uribe",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Ingenieria en Diseño de Software y Redes",
         photo: 6,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Ocupación: Estudiante."
     },
     {
         name: "Blanca Melissa Temores Uribe",
-        degree: "Licenciatura en Ingenieria en Tecnologias y Sistemas de Información",
+        degree: "Licenciatura en Ingenieria Industrial",
         photo: 7,
-        msg: "Tengo 25 años, vivo en la CDMX. Actualmente soy estudiante y laboro de tiempo completo como desarrollador front-end para Liverpool."
+        msg: "Laboro como asistente de una empresa de desarrollo electronico y actualmente soy estudiante."
     }
 
 ]

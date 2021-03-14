@@ -8,6 +8,7 @@ export default function Topics(props) {
                 node {
                     slug
                     title
+                    src
                 }
             }
         }
@@ -24,7 +25,7 @@ export default function Topics(props) {
                             return (
                                 <>
                                     <div className="shadow bg-white mr-4 rounded flex-shrink-0 img-size" key={index}>
-                                        <header className="h-40 bg-cover bg-center rounded-t" style={{backgroundImage: `url('https://www.imagen.com.mx/assets/img/imagen_share.png')`}}></header>
+                                        <header className="h-40 bg-cover bg-center rounded-t" style={{backgroundImage: `url(${node.src})`}}></header>
                                         <div className="p-8">
                                             <h4 className="font-bold leading-loose h-20 lg:h-12 xl-12 overflow-y-hidden">{node.title}</h4>
                                             <Link to={`/${node.slug}`} className="btn inline-block mt-4">

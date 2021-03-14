@@ -5,22 +5,6 @@
     "date": "10 marzo 2021",
     "name": "¿Cuáles son las funciones elementales básicas y las propiedades particulares de cada una?",
     "style":"bg-yellowwk",
-    "contents": [
-        {
-            "name": "¿Cuáles son las funciones elementales básicas y las propiedades particulares de cada una?",
-            "degree": "ironhack",
-            "score": "1000000"
-        },
-        {
-            "name": "Gapsi",
-            "degree": "Gapsi",
-            "score": "1000"
-        },
-        {
-            "name": "CF",
-            "degree": "CF",
-            "score": "1000"
-        }
-
-    ]
+    "src": "https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "description": ""
 }
