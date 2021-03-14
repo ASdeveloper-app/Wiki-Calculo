@@ -15,7 +15,8 @@ module.exports = {
         'pinkwk': '#f9b2a6',
         'pinkbo': '#ff7f7f',
         'rosebo': '#946c74',
-        'yellowwk': '#f7aa52'
+        'yellowwk': '#f7aa52',
+        'uvm': '#e72400'
       }
     }
   },

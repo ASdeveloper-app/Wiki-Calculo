@@ -1,6 +1,10 @@
 {
     "slug": "numeros",
+    "topic": "Numeros",
     "title": "Clasificación de los números",
+    "date": "12 marzo 2021",
+    "name": "Clasificación de los números",
+    "style":"bg-uvm",
     "contents": [
         {
             "name": "Clasificación de los números",

@@ -1,4 +1,4 @@
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import React from 'react'
 import Topics from '../components/topics'
 import Header from '../components/header'
@@ -23,7 +23,7 @@ export default function template(props) {
                         )
                     })}
                 </ul>
-                <Topics/>
+                <Topics label="Más publicaciones"/>
             </div>
             <Footer/>
         </>

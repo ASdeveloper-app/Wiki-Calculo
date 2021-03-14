@@ -12,9 +12,10 @@ export default function Topics(props) {
             }
         }
     }`)
+
     return (
         <div className="mt-8 px-6">
-            <h2 className="text-3xl font-bold text-center">Publicaciones</h2>
+            <h2 className="text-3xl font-bold text-center">{props.label}</h2>
             <div className="max-w-6xl mx-auto overflow-x-scroll pb-2">
                     <nav className="flex mt-6">
                     {

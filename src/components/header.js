@@ -19,7 +19,7 @@ export default function Home() {
                         </Link>
                         <p className=" font-light text-paperwk text-xs md:text-md lg:text-lg">Comunidad y aprendizaje.</p>
                     </div>
-                    <img src={uvm} alt='Hombre enseñando' className="cursor-pointer h-6 md:h-8 lg:h-10 xl:h-10" onClick={() => window.open('https://uvm.mx/')}></img>
+                    <img src={uvm} alt='Logo UVM' className="cursor-pointer h-6 md:h-8 lg:h-10 xl:h-10" onClick={() => window.open('https://uvm.mx/')}></img>
                 </div>
             </div>
         </header>

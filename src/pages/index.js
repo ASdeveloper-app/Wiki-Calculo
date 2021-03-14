@@ -7,12 +7,12 @@ import Form from '../components/form'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header/>
       <Hero/>
-      <Topics/>
+      <Topics label="Publicaciones"/>
       <Form/>
       <Footer/>
-    </div>
+    </>
     )
 }

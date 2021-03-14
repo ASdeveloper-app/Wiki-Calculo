@@ -1,9 +1,13 @@
 {
     "slug": "funciónes",
-    "title": "Qué es una función y cuáles son sus...",
+    "topic": "Funciones",
+    "title": "¿Qué es una función y cuáles son sus...",
+    "date": "9 marzo 2021",
+    "name": "¿Qué es una función y cuáles son sus propiedades generales?",
+    "style":"bg-yellowwk",
     "contents": [
         {
-            "name": "Qué es una función y cuáles son sus propiedades generales",
+            "name": "¿Qué es una función y cuáles son sus propiedades generales?",
             "degree": "Ing. en TI",
             "score": "100"
 

@@ -15,7 +15,7 @@ body{
 .vertical-text{
     writing-mode: vertical-rl;
     text-orientation: upright;
-    @apply bg-blue-200 p-2
+    @apply p-2
 }
 
 .img-size{
