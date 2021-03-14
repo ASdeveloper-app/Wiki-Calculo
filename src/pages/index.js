@@ -12,6 +12,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Topics/>
+      <Ecuation/>
       <Form/>
       <Footer/>
     </div>

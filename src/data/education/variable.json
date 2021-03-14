@@ -1,0 +1,13 @@
+{
+    "slug": "variable",
+    "description": "Talleres y conferencias",
+    "title": "Definición de variable",
+    "items": [
+        {
+            "name": "UVM",
+            "degree": "Ing. en TI",
+            "score": "100"
+
+        }
+    ]
+}

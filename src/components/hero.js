@@ -20,7 +20,7 @@ export default function hero() {
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                             En Wiki Cálculo encontraras diversos temas sobre Cálculo, donde se desarrollan conceptos de la manera mas entendible posible. De estudiantes para estudiantes.
                             </p>
-                            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-center lg:justify-end xl:justify-end" >
                                 <div className="rounded-md shadow">
                                     <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-tealwkbo bg-bluewk hover:bg-blueli md:py-4 md:text-lg md:px-10 border-b-4 border-blueli">
                                     Comencemos

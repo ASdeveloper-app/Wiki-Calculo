@@ -18,6 +18,18 @@ body{
     @apply bg-blue-200 p-2
 }
 
+.img-size{
+    width: 65vw;
+}
+
+@media (min-width: 1280px){
+    .max-ml-vw{
+        margin-left: 36vw;
+    }
+    .img-size{
+        width: 23vw;
+    }
+}
 
 @media (min-width: 1024px){
     .max-w-vw{
@@ -29,12 +41,25 @@ body{
     .bg-hero{
         background: #4C4F56;
     }
-}
-
-@media (min-width: 1111px){
-    .max-ml-vw{
-        margin-left: 36vw;
+    .img-size{
+        width: 23vw;
     }
 }
 
+@media (min-width: 768px){
+    .max-ml-vw{
+        margin-left: 36vw;
+    }
+    .img-size{
+        width: 23vw;
+    }
+}
 
+@media (min-width: 640px){
+    .max-ml-vw{
+        margin-left: 36vw;
+    }
+    .img-size{
+        width: 30vw;
+    }
+}

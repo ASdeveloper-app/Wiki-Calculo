@@ -1,0 +1,23 @@
+{
+    "slug": "funciones-basicas",
+    "description": "En la red",
+    "title": "Cuáles son las funciones elementales básicas y las propiedades particulares de cada una",
+    "items": [
+        {
+            "name": "ironhack",
+            "degree": "ironhack",
+            "score": "1000000"
+        },
+        {
+            "name": "Gapsi",
+            "degree": "Gapsi",
+            "score": "1000"
+        },
+        {
+            "name": "CF",
+            "degree": "CF",
+            "score": "1000"
+        }
+
+    ]
+}
