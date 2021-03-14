@@ -1,31 +1,32 @@
 import React from 'react'
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
+import { IconContext } from "@react-icons/all-files"
 
 export default function footer() {
     return (
-        <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">
-            <div class="container mx-auto px-6">
-
-                <div class="sm:flex sm:mt-8">
-                    <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
-                        <div class="flex flex-col">
-                            <span class="font-bold text-gray-700 uppercase mb-2">Contenido 1</span>
-                            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+        <footer className="footer bg-tealwkbo relative border-b-2 border-black">
+            <div className="container mx-auto px-6">
+                <div className="pt-4 flex-1 flex items-center justify-center">
+                        <div className="flex space-x-4 ">
+                            <a href="#" className="text-paperwk px-3 py-2 rounded-md text-sm font-medium">Acerca de</a>
+                            <a href="#" className="text-paperwk px-3 py-2 rounded-md text-sm font-medium">Publicaciones</a>
+                            <a href="#" className="text-paperwk px-3 py-2 rounded-md text-sm font-medium">Participantes</a>
                         </div>
-                        <div class="flex flex-col">
-                            <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Contenido 2</span>
-                            <span class="my-2"><a href="#" class="text-blue-700 text-md hover:text-blue-500">link 1</a></span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Contenido 3</span>
-                            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="container mx-auto px-6">
-                <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
-                    <div class="sm:w-2/3 text-center py-6">
-                        <p class="text-sm text-blue-700 font-bold mb-2">
+            <div className="container mx-auto px-6">
+                <div className="pt-4 flex-1 flex items-center justify-center">
+                        <div className="flex space-x-4 ">
+                            <IconContext.Provider value={{size: "2em", color: "#0274b3"}}>
+                                    <FaLinkedin />
+                            </IconContext.Provider>
+                        </div>
+                </div>
+            </div>
+            <div className="container mx-auto px-6">
+                <div className="mt-4 border-t-2 border-gray-300 flex flex-col items-center">
+                    <div className="sm:w-2/3 text-center py-6">
+                        <p className="text-sm text-tealwkli font-bold mb-2">
                             © 2021 by AS developer
                         </p>
                     </div>

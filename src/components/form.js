@@ -65,7 +65,7 @@ export default function Contact({ locale }) {
     
     console.log(message, "message")
     return (
-        <header className="bg-gray-600">
+        <header className="bg-tealwk px-6 sm:px-6 md:px-6 lg:px-0 xl:px-0">
             <div className="container mx-auto pt-6 pb-12 max-w-4xl">
                 <form 
                 className="text-center" 
@@ -81,7 +81,7 @@ export default function Contact({ locale }) {
                         <textarea 
                             id="form-content"
                             name="form-content"
-                            className="flex-1 py-2 px-3 text-red-900 focus:outline-none"
+                            className="flex-1 py-0 sm:py-0 md:py-2 lg:py-2 xl:py-2 px-3 text-red-900 focus:outline-none"
                             required
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}

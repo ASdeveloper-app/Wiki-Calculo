@@ -1,17 +1,13 @@
 {
     "slug": "others",
-    "description": "Vamos a ver que pedoooo",
-    "title": "Otros",
+    "description": "Talleres y conferencias",
+    "title": "Info",
     "items": [
         {
-            "name": "ironhack",
-            "degree": "ironhack",
-            "score": "1000000"
-        },
-        {
-            "name": "Gapsi",
-            "degree": "Gapsi",
-            "score": "1000"
+            "name": "UVM",
+            "degree": "Ing. en TI",
+            "score": "100"
+
         }
     ]
 }

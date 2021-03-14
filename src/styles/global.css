@@ -9,7 +9,7 @@ body{
 }
 
 .btn{
-    @apply bg-gray-500 text-white rounded border-b-4 border-gray-700 py-2 px-4
+    @apply bg-bluewk text-white rounded border-b-4 border-blueli py-2 px-4
 }
 
 .vertical-text{
@@ -17,3 +17,24 @@ body{
     text-orientation: upright;
     @apply bg-blue-200 p-2
 }
+
+
+@media (min-width: 1024px){
+    .max-w-vw{
+        max-width: 50vw;
+    }
+    .max-ml-vw{
+        margin-left: 40vw;
+    }
+    .bg-hero{
+        background: #4C4F56;
+    }
+}
+
+@media (min-width: 1111px){
+    .max-ml-vw{
+        margin-left: 36vw;
+    }
+}
+
+

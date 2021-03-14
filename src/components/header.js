@@ -1,20 +1,52 @@
-import React from 'react'
-import logo from '../img/Logo uvm.png'
-import Form from './form'
+import React, {useState} from 'react'
+import uvm from '../img/uvm.png'
+import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose"
+import {  AiOutlineMenu } from "@react-icons/all-files/ai/AiOutlineMenu"
+import { IconContext } from "@react-icons/all-files"
 
 export default function Home() {
+    const [open, setOpen] = useState(false)
+
     return (
-        <header className="bg-gray-600">
+        <>
+        <header className="bg-tealwkbo">
             <div className="container mx-auto p-12 max-w-4xl">
                 <div className="flex justify-center items-center">
                     <div className="flex-1">
-                        <h1 className="font-bold text-white text-5xl"> Wiki Cálculo</h1>
-                        <p className=" font-light text-white">Comunidad y aprendizaje.</p>
+                        <h1 className="font-bold text-paperwk text-xl md:text-5xl lg:text-6xl xl:text-7xl"> Wiki Cálculo</h1>
+                        <p className=" font-light text-paperwk text-xs md:text-md lg:text-lg">Comunidad y aprendizaje.</p>
                     </div>
-                    <img src={logo} alt='Hombre enseñando' style={{height: "10vh"}}></img>
+                    <img src={uvm} alt='Hombre enseñando' className="h-6 md:h-8 lg:h-10 xl:h-10"></img>
                 </div>
             </div>
         </header>
+        <nav className="flex items-center justify-end flex-wrap bg-tealwkbo pb-4 ">
+            <div className="block lg:hidden pr-6" onClick={() => {setOpen(!open) ; console.log(open)}}>
+                {
+                open ? 
+                <IconContext.Provider value={{size: "1.5em", color: "#dad7bc"}}>
+                    <AiOutlineClose/>
+                </IconContext.Provider> :
+                <IconContext.Provider value={{size: "1.5em", color: "#dad7bc"}}>
+                    <AiOutlineMenu/>
+                </IconContext.Provider>
+                }
+            </div>
+            <div className={open ? "w-full block lg:flex flex-grow  lg:items-center lg:w-auto text-left md:text-left lg:text-center xl:text-center pl-6 lg:pl-0 xl:pl-0" : "w-full hidden lg:flex flex-grow  lg:items-center lg:w-auto text-center"}>
+                <div className="text-sm lg:text-base xl:text-base lg:flex-grow">
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-10">
+                    Inicio
+                </a>
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-10">
+                    Publicaciones
+                </a>
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+                    Participantes
+                </a>
+                </div>
+            </div>    
+        </nav>
+        </>
     )
 }
 
