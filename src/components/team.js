@@ -20,7 +20,7 @@ const data = [
         name: "Elia Patricia De Anda Centeno",
         degree: "Licenciatura en Ingenieria y de Sistemas",
         photo: 2,
-        msg: "Especialista en recepción y envío de materiales electronicos"
+        msg: "Soy de Guadalajara, Jalisco. Soy especialista en recepción y envío de materiales electronicos"
     },
     {
         name: "César Osvaldo García Espinosa",
