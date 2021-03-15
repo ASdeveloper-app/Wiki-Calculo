@@ -25,14 +25,14 @@ export default function template(props) {
                 <>
 
 
-                <div class='flex my-4 justify-center'>
-                    <img src={image} alt='funciones'/>
-                </div>
-
-
+                
+ 
 
                 </>
                 <Topics label="Más publicaciones"/>
+                <div className='my-4 justify-center hidden'>
+                    <img src={image} alt='funciones'/>
+                </div>
             </div>
             <Footer/>
         </>

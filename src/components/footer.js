@@ -9,14 +9,14 @@ export default function footer() {
             <div className="container mx-auto px-6">
                 <div className="pt-4 flex-1 flex items-center justify-center">
                         <div className="flex space-x-4 ">
-                            <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">
-                                Inicio
-                            </Link>
                             <Link to="/publicaciones" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                                 Publicaciones
                             </Link>
                             <Link to="/participantes" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                                 Participantes
+                            </Link>
+                            <Link to="/references" className="text-white px-3 py-2 rounded-md text-sm font-medium">
+                                Referencias
                             </Link>
                         </div>
                 </div>

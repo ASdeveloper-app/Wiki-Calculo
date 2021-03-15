@@ -44,41 +44,41 @@ export default function personalCard(props) {
             <>
             {
                 data.photo === 0 || data.photo === 2 || data.photo === 4 || data.photo === 6 ?
-                    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between " >
-                        <img class="w-32 h-32 md:w-48 md:h-auto rounded-xl mx-auto md:mx-0 lg:mx-0 xl:mx-0" src={photo()} alt={data.name} width="384" height="512" />
-                        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                    <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between " >
+                        <img className="w-32 h-32 md:w-48 md:h-auto rounded-xl mx-auto md:mx-0 lg:mx-0 xl:mx-0" src={photo()} alt={data.name} width="384" height="512" />
+                        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                             <blockquote>
-                            <p class="text-lg font-semibold">
+                            <p className="text-lg font-semibold">
                                 “{data.msg}”
                             </p>
                             </blockquote>
-                            <figcaption class="font-medium">
-                            <div class="text-cyan-600">
+                            <figcaption className="font-medium">
+                            <div className="text-cyan-600">
                                 {data.degree}
                             </div>
-                            <div class="text-gray-500">
+                            <div className="text-gray-500">
                                 {data.name}
                             </div>
                             </figcaption>
                         </div>
                     </figure> : 
-                    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between " >
-                        <div class="pb-6 md:p-8 text-center md:text-left space-y-4">
+                    <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between " >
+                        <div className="pb-6 md:p-8 text-center md:text-left space-y-4">
                             <blockquote>
-                            <p class="text-lg font-semibold">
+                            <p className="text-lg font-semibold">
                                 “{data.msg}”
                             </p>
                             </blockquote>
-                            <figcaption class="font-medium">
-                            <div class="text-cyan-600">
+                            <figcaption className="font-medium">
+                            <div className="text-cyan-600">
                                 {data.degree}
                             </div>
-                            <div class="text-gray-500">
+                            <div className="text-gray-500">
                                 {data.name}
                             </div>
                             </figcaption>
                         </div>
-                        <img class="w-32 h-32 md:w-48 md:h-auto rounded-xl mx-auto md:mx-0 lg:mx-0 xl:mx-0" src={photo()} alt={data.name} width="384" height="512" />
+                        <img className="w-32 h-32 md:w-48 md:h-auto rounded-xl mx-auto md:mx-0 lg:mx-0 xl:mx-0" src={photo()} alt={data.name} width="384" height="512" />
                     </figure>
             }
         </>
