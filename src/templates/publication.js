@@ -43,7 +43,7 @@ export default function template(props) {
                     <div dangerouslySetInnerHTML={{ __html: pageData.description }}></div>
                 </ul>
 
-                <DiscussionEmbed {...disqusConfig} />
+                {/* <DiscussionEmbed {...disqusConfig} /> */}
                 
                 <Topics label="Más publicaciones"/>
                 <div className='my-4 justify-center hidden'>
