@@ -36,9 +36,9 @@ const data = [
     },
     {
         name: "Ángel Mercurio Rivera Rivera",
-        degree: "Licenciatura ...",
+        degree: "Licenciatura en Economia y Finanzas",
         photo: 5,
-        msg: "..."
+        msg: "Subgerente de restaurante"
     },
     {
         name: "Aurelio Rodriguez Uribe",
@@ -47,7 +47,7 @@ const data = [
         msg: "Ocupación: Estudiante."
     },
     {
-        name: "Blanca Melissa Temores Uribe",
+        name: "Melissa Temores",
         degree: "Licenciatura en Ingenieria Industrial",
         photo: 7,
         msg: "Laboro como asistente de una empresa de desarrollo electronico y actualmente soy estudiante."

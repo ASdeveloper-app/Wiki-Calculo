@@ -20,8 +20,14 @@ export default function template(props) {
                 <ul className="max-w-4xl mx-auto pb-8 px-4">
                     <div dangerouslySetInnerHTML={{ __html: pageData.description }}></div>
                 </ul>
+                
                 <>
-      
+
+
+
+
+
+
                 </>
                 <Topics label="Más publicaciones"/>
             </div>
