@@ -19,7 +19,7 @@ export default function hero() {
                                 <span className="block text-tealwkli xl:inline">Cálculo diferencial e integral</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            En Wiki Cálculo encontraras diversos temas sobre Cálculo, donde se desarrollan conceptos de la manera mas entendible posible. De estudiantes para estudiantes.
+                            En Wiki Cálculo encontraras diversos temas sobre Cálculo, donde se desarrollan conceptos de la manera más entendible posible. De estudiantes para estudiantes.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex justify-center sm:justify-center lg:justify-end xl:justify-end" >
                                 <div className="rounded-md shadow">

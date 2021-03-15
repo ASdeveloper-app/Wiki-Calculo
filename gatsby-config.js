@@ -9,6 +9,6 @@ module.exports = {
         name: 'data',
         path:`${__dirname}/src/data`
       }
-    }
+    },
   ],
 }
