@@ -3,6 +3,7 @@ import React from 'react'
 import Topics from '../components/topics'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import image from '../img/cohete.png'
 
 
 export default function template(props) {
@@ -24,7 +25,9 @@ export default function template(props) {
                 <>
 
 
-
+                <div class='flex my-4 justify-center'>
+                    <img src={image} alt='funciones'/>
+                </div>
 
 
 
